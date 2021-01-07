@@ -63,6 +63,7 @@ header .header-top ul li a {
 
 header .header-bottom {
   height: 115px;
+  border-bottom: 1px solid lightgrey;
 }
 
 header .header-bottom nav {

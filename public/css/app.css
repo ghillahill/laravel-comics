@@ -27,34 +27,84 @@ a {
   font-size: 14px;
 }
 
-header {
-  background-color: #0582f9;
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header ul li a:hover {
+  text-decoration: underline;
 }
 
 header .header-top {
   padding: 5px 0;
+  background-color: #0582f9;
 }
 
 header .header-top ul {
   text-align: right;
-  list-style-type: none;
 }
 
 header .header-top ul li:first-child {
   padding-right: 30px;
 }
 
-header .header-top ul li {
-  display: inline-block;
-}
-
 header .header-top ul li a {
-  text-decoration: none;
-  text-transform: uppercase;
   color: #fff;
 }
 
-header .header-top ul li a:hover {
-  text-decoration: underline;
+header .header-bottom {
+  height: 115px;
+}
+
+header .header-bottom nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .header-bottom nav .logo {
+  height: 115px;
+  display: flex;
+  align-items: center;
+}
+
+header .header-bottom nav .logo img {
+  width: 86px;
+  display: inline-block;
+}
+
+header .header-bottom nav .menu {
+  height: 100%;
+  display: inline-block;
+}
+
+header .header-bottom nav .menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .header-bottom nav .menu ul li {
+  padding: 0 20px;
+}
+
+header .header-bottom nav .menu ul li a {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #464646;
+}
+
+header .header-bottom nav .menu ul li a:hover {
+  color: #0282f9;
+  text-decoration: none;
 }
 

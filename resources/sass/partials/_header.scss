@@ -1,28 +1,87 @@
 header {
-    background-color: $primary_color;
+
+    ul {
+        list-style-type: none;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                text-transform: uppercase;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 
     .header-top {
         padding: 5px 0;
+        background-color: $primary_color;
+
         ul {
             text-align: right;
-            list-style-type: none;
 
             li:first-child {
                 padding-right: 30px;
             }
 
             li {
-                display: inline-block;
 
                 a {
-                    text-decoration: none;
-                    text-transform: uppercase;
                     color: $font_primary_color;
-                    &:hover {
-                        text-decoration: underline;
-                    }
                 }
             }
         }
+    }
+
+    .header-bottom {
+        height: 115px;
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .logo {
+                height: 115px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 86px;
+                    display: inline-block;
+                }
+            }
+
+            .menu {
+                height: 100%;
+                display: inline-block;
+
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+
+                    li {
+                        padding: 0 20px;
+
+                        a {
+                            font-family: 'Open Sans Condensed', sans-serif;
+                            font-size: 18px;
+                            font-weight: 400;
+                            color: $menu_primary_color;
+
+                            &:hover {
+                                color: $menu_hover_color;
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+
     }
 }

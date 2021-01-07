@@ -58,16 +58,23 @@ header {
 
             .menu {
                 height: 100%;
-                display: inline-block;
+                display: flex;
+                justify-content: space-around;
 
                 ul {
-                    display: flex;
-                    justify-content: space-around;
+                    display: inline-block;
+                    line-height: 115px;
 
                     li {
                         padding: 0 20px;
 
+                        a.active {
+                            border-bottom: 5px solid $primary_color;
+                        }
+
                         a {
+                            display: inline-block;
+                            height: 115px;
                             font-family: 'Open Sans Condensed', sans-serif;
                             font-size: 18px;
                             font-weight: 400;

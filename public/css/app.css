@@ -85,19 +85,26 @@ header .header-bottom nav .logo img {
 
 header .header-bottom nav .menu {
   height: 100%;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
 }
 
 header .header-bottom nav .menu ul {
-  display: flex;
-  justify-content: space-around;
+  display: inline-block;
+  line-height: 115px;
 }
 
 header .header-bottom nav .menu ul li {
   padding: 0 20px;
 }
 
+header .header-bottom nav .menu ul li a.active {
+  border-bottom: 5px solid #0582f9;
+}
+
 header .header-bottom nav .menu ul li a {
+  display: inline-block;
+  height: 115px;
   font-family: "Open Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;

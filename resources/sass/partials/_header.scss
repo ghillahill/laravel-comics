@@ -1,0 +1,28 @@
+header {
+    background-color: $primary_color;
+
+    .header-top {
+        padding: 5px 0;
+        ul {
+            text-align: right;
+            list-style-type: none;
+
+            li:first-child {
+                padding-right: 30px;
+            }
+
+            li {
+                display: inline-block;
+
+                a {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: $font_primary_color;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

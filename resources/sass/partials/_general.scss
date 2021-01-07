@@ -1,3 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Nunito';
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1360px;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    font-size: 14px;
 }

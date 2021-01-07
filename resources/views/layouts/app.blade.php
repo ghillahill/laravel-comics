@@ -4,21 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Comics - </title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="{{asset("css/app.css")}}">
     </head>
     <body>
-        <header>
-            <div class="header-top">
-
-            </div>
-            <div class="header-bottom">
-
-            </div>
-        </header>
+        @include('partials.header')
         @yield('content')
+        @include('partials.footer')
     </body>
 </html>

@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-    <h1>Current Series</h1>
+    <div class="jumbotron"></div>
+    <div class="container">
+        <h1>Current Series</h1>
+    </div>
+
 @endsection

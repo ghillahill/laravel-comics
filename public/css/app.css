@@ -13,6 +13,11 @@ body {
   margin: auto;
 }
 
+.jumbotron {
+  padding: 225px 0;
+  background-image: url("/images/jumbotron.jpg");
+}
+
 h1,
 h2,
 h3,

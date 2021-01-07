@@ -121,3 +121,27 @@ header .header-bottom nav .menu ul li a:hover {
   text-decoration: none;
 }
 
+section.dc-series {
+  background-color: #1c1c1c;
+}
+
+section.dc-series h1 {
+  display: inline-block;
+  transform: translateY(-50%);
+  padding: 20px;
+  color: #fff;
+  background-color: #0582f9;
+}
+
+section.dc-series .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.dc-series .cards .dc-card {
+  display: inline-block;
+  width: 223px;
+  padding: 10px;
+  color: #fff;
+}
+

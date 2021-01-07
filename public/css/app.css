@@ -123,6 +123,7 @@ header .header-bottom nav .menu ul li a:hover {
 
 section.dc-series {
   background-color: #1c1c1c;
+  padding-bottom: 50px;
 }
 
 section.dc-series h1 {
@@ -143,5 +144,22 @@ section.dc-series .cards .dc-card {
   width: 223px;
   padding: 10px;
   color: #fff;
+}
+
+section.dc-series .cards .dc-card p {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+section.dc-series .load-more {
+  display: flex;
+  justify-content: center;
+}
+
+section.dc-series .load-more h3 {
+  display: inline-block;
+  padding: 15px;
+  color: #fff;
+  background-color: #0582f9;
 }
 

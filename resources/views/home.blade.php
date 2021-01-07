@@ -21,7 +21,14 @@
                     </div>
                 @endforeach
             </div>
-            
+
+            <div class="load-more">
+                <a href="#">
+                    <h3>Load More</h3>
+                </a>
+
+            </div>
+
         </div>
     </section>
 
